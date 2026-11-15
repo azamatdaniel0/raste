@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="linear-gradient-1" x1="256" y1="12" x2="256" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffb85c"/>
+      <stop offset="0.25" stop-color="#ffa326"/>
+      <stop offset="0.75" stop-color="#ff9505"/>
+      <stop offset="1" stop-color="#f58500"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="256" y1="14" x2="256" y2="498" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe0b2"/>
+      <stop offset="0.35" stop-color="#ffb040"/>
+      <stop offset="0.85" stop-color="#e67e00"/>
+      <stop offset="1" stop-color="#cc6d00"/>
+    </linearGradient>
+    <filter id="filter-1" filterUnits="userSpaceOnUse" x="106" y="95" width="96" height="422" data-vc-blend="multiply" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="5"/><feOffset dx="2" dy="0" result="shadow"/><feFlood flood-color="#000000" flood-opacity="0.18"/><feComposite in2="shadow" operator="in" result="paint"/><feMerge><feMergeNode in="paint"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="linear-gradient-3" x1="154" y1="114" x2="154" y2="498" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.4" stop-color="#fff5e6"/>
+      <stop offset="0.8" stop-color="#fde1ba"/>
+      <stop offset="1" stop-color="#fcc682"/>
+    </linearGradient>
+    <filter id="filter-2" filterUnits="userSpaceOnUse" x="113.5" y="217.5" width="81" height="89" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceGraphic" stdDeviation="3.5"/></filter>
+    <filter id="filter-3" filterUnits="userSpaceOnUse" x="90.122" y="64.122" width="380.628" height="307.128" data-vc-blend="multiply" color-interpolation-filters="sRGB"><feGaussianBlur in="SourceAlpha" stdDeviation="8"/><feOffset dx="0" dy="8" result="shadow"/><feFlood flood-color="#000000" flood-opacity="0.28"/><feComposite in2="shadow" operator="in" result="paint"/><feMerge><feMergeNode in="paint"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <linearGradient id="linear-gradient-4" x1="240" y1="105" x2="382" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#fff7eb"/>
+      <stop offset="1" stop-color="#fbe2c0"/>
+    </linearGradient>
+  </defs>
+  <title>Raste-Logo</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path id="Squircle-Base" d="M122 12 L390 12 C450.751 12 500 61.249 500 122 L500 390 C500 450.751 450.751 500 390 500 L122 500 C61.249 500 12 450.751 12 390 L12 122 C12 61.249 61.249 12 122 12 Z" fill="url(#linear-gradient-1)"/>
+    <path id="Squircle-Rim-Highlight" d="M122 14 L390 14 C449.647 14 498 62.353 498 122 L498 390 C498 449.647 449.647 498 390 498 L122 498 C62.353 498 14 449.647 14 390 L14 122 C14 62.353 62.353 14 122 14 Z" fill="none" stroke="url(#linear-gradient-2)" stroke-width="4" stroke-miterlimit="10" opacity="0.55"/>
+    <g filter="url(#filter-1)">
+      <path id="R-Vertical-Stem" d="M125 498 L125 143 C125 126.984 137.984 114 154 114 C170.016 114 183 126.984 183 143 L183 498 Z" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g filter="url(#filter-2)">
+      <path id="R-Stem-Overlap-Shadow" d="M154 230 L154 230 C169.464 230 182 242.536 182 258 L182 266 C182 281.464 169.464 294 154 294 L154 294 C138.536 294 126 281.464 126 266 L126 258 C126 242.536 138.536 230 154 230 Z" fill="#dc821e" opacity="0.42"/>
+    </g>
+    <g filter="url(#filter-3)">
+      <path id="R-Shoulder-Arch-And-Arrow" d="M125 248 C121.686 169.023 183.023 102.314 262 99 C340.977 95.686 407.686 157.023 411 236 C411 243.333 415.333 247 424 247 C436 247 439 252.333 433 263 L392 329 C385.333 339 378.667 339 372 329 L331 263 C325 252.333 328 247 340 247 C348.667 247 353 243.333 353 236 C349.686 189.056 308.944 153.686 262 157 C215.056 160.314 179.686 201.056 183 248 C183 264.016 170.016 277 154 277 C137.984 277 125 264.016 125 248 Z" fill="url(#linear-gradient-4)" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="10"/>
+    </g>
+  </g>
+</svg>

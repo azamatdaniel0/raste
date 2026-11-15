@@ -1,0 +1,22 @@
+[package]
+name = "paste-mcp"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lib]
+name = "paste_mcp"
+path = "src/lib.rs"
+
+[[bin]]
+name = "paste-mcp-stdio"
+path = "src/main.rs"
+
+[dependencies]
+paste-core = { path = "../paste-core" }
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+base64.workspace = true
+log.workspace = true
+env_logger.workspace = true
